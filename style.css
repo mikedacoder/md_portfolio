@@ -288,14 +288,46 @@ a:hover {
 		margin: 4%;		
 	}
 	
+	.avatar {
+		margin-top: 6%;
+	}
+	
 	.title {	
-		width: 48%;
-		font-size: .75em;			
+		width: 70%;				
+	}
+	
+	.title h1 {
+		font-size: 40px;
+	}
+	
+	.title h2 {
+		font-size: 30px;
 	}
 	
 	.portfolio-header {	
-		font-size: 1.5em;			
+		width: 97%;		
+		margin-top: 0;
 	}	
+	
+	.portfolio-header h3 {
+		font-size: 50px;
+		margin-top: -1%;
+		margin-left: -40%;
+		text-align: center;
+	}
+	
+	.contact-info {
+		margin-top: -6%;
+	}
+	
+	.contact-info ul {		
+		width: 42%;	
+	}
+
+	.contact-info ul li {		
+		font-size: 18px;		
+	}
+	
 	.column {		
 		width: 94%;
 		margin: 3%;
