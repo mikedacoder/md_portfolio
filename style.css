@@ -137,6 +137,10 @@ a:hover {
 	margin-left: 10%;	
 }
 
+.contact-info a:hover {	
+	text-decoration: underline;
+}
+
 /* Blog Columns Content Styles */
 
 .column {
