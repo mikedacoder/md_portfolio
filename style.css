@@ -1,0 +1,304 @@
+/*
+Theme Name: Mike Dryburgh Portfolio
+Author: Michael Dryburgh
+Author URI: http://www.mikedryburgh.com
+Version: 1.0
+*/
+
+/***********************Global Styles****************/
+@import url('https://fonts.googleapis.com/css?family=Dosis|Pinyon+Script|Roboto');
+* { 
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 	
+	margin: 0;
+	padding: 0;						
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	position: relative;	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	overflow: auto;			
+}
+
+/*Paragraph Styles */
+p {
+	margin: 2%;	
+}
+
+/* Image styles */
+img {
+	max-width: 94%;
+}
+
+/* Standard link Styles */
+
+a:link, a:visited {	
+	text-decoration: none;
+}
+
+a:hover {	
+	text-decoration: none;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/* Site Header Styles */
+.site-header {
+	display: block;
+	width: 100%;		
+	background: #2B2525;	
+	color: #FFF;	
+	padding: 1%;		
+}
+
+.site-header a:link, a:visited {	
+	color: #FFFFFF;
+}
+
+.site-header a:hover {	
+	color: #FFFFFF;
+}
+
+/* Avatar styles */
+.avatar {
+	float: left;
+	width: 10%;
+}
+.avatar img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Title styles */
+.title {	
+	float: left;
+	width: 55%;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+.title h1 {	
+	font-size: 56px;		
+}
+
+.title h2 {
+	font-size: 42px;
+}
+
+/* Portfolio Heading Styles */
+.portfolio-header {
+	float: left;
+	width: 35%;	
+}
+
+.portfolio-header h3 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 80px;	;
+	text-align: left;
+	margin: 2% 0 -4% -20%;
+	padding: 1%;
+}
+
+/* Contact info styles */
+.contact-info ul {
+	float: right;
+	width: 40%;	
+}
+
+.contact-info ul li {
+	display: inline-block;
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;
+	list-style: none;
+	float: left;	
+	margin-left: 10%;	
+}
+
+/* Blog Columns Content Styles */
+
+.column {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+
+.blog-content {
+	height: 500px;
+	padding: 5%;
+	background: #EAE9E9;
+	border: 2px solid #2B2525;
+	overflow: auto;
+}
+
+.blog-content h3 {
+	font-size: 20px;
+	padding: 0 1.5% 0 1.5%;
+}
+
+.blog-content p {
+	margin: 1%;	
+}
+
+.blog-content a:link,
+.blog-content a:visited {
+	color: #2b2527;
+	font-weight: 700;
+}
+.blog-content a:hover {
+	color: #625454;
+	text-decoration: underline;
+}
+.blog-content img {
+	border: 2px solid #2B2525;
+	margin: 1%;	
+}
+
+/* 'Single' page styles */
+.single-content {
+	width: 97%;
+	margin: 1.5%;
+}
+.single-content h3 {
+	font-size: 32px;
+	padding: .25% 1.5% 0 1.5%;
+}
+.single-content a:link,
+.single-content a:visited {
+	color: #2b2527;
+	font-weight: 700;
+}
+.single-content a:hover {
+	color: #625454;
+	text-decoration: underline;
+}
+.single-content img {
+	float: right;
+	border: 2px solid #2B2525;
+	margin: 1%;
+}
+
+/* Site Footer Styles */
+.site-footer {
+	display: block;
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	background: #2B2525;	
+	color: #FFF;			
+}
+
+.site-footer P {
+	text-align: center;
+	margin: 0;
+	padding: .5%;
+}
+
+/************* Responsive for mobile ************************/
+
+@media (max-width: 800px) {
+	p {	
+		margin: 3%;		
+	}
+	
+	.avatar {		
+		width: 15%;
+		margin: 2% 1% 1% 2%;
+	}
+	
+	.title {	
+		width: 48%;
+		font-size: 1.25em;
+		padding: 1%;
+	}
+	
+	.title h1 {
+		font-size: 40px;
+	}
+	
+	.title h2 {
+		font-size: 40px;
+	}
+	
+	.portfolio-header {	
+		width: 33%;		
+		margin-top: 3%;
+	}	
+	
+	.portfolio-header h3 {
+		font-size: 60px;
+		margin-left: -4%;
+	}
+	
+	.contact-info ul {		
+		width: 65%;	
+	}
+
+	.contact-info ul li {		
+		font-size: 18px;		
+	}
+	
+	.column {		
+		width: 46%;
+		margin: 1.5%;
+	}
+	
+	.single-content {
+		width: 96%;
+		margin: 2%;
+	}
+	
+	.single-content h3 {
+		font-size: 1.25em;		
+	}
+	
+	.single-content img {
+		float: none;
+	}
+}
+
+@media (max-width: 500px) {	
+	
+	p {	
+		margin: 4%;		
+	}
+	
+	.title {	
+		width: 48%;
+		font-size: .75em;			
+	}
+	
+	.portfolio-header {	
+		font-size: 1.5em;			
+	}	
+	.column {		
+		width: 94%;
+		margin: 3%;
+	}
+	
+	.single-content {
+		width: 94%;
+		margin: 3%;
+	}
+}
