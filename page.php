@@ -3,9 +3,11 @@
 get_header(); ?>
 
 <?php	if (have_posts()) :
-		while (have_posts()) : the_post(); 
+		while (have_posts()) : the_post(); ?>
 		
-		get_template_part('content'); 
+	<article class="single-content">
+		
+<?php get_template_part('content'); 
 		
 		endwhile;
 
@@ -15,6 +17,7 @@ get_header(); ?>
 				endif;
 			
 			?>
+	</article>
 
 <?php get_footer();
 
