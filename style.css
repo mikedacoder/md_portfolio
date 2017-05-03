@@ -289,7 +289,7 @@ a:hover {
 	}
 	
 	.contact-info ul {		
-		width: 92%;
+		width: 100%;
 		margin-top: 3%;
 	}
 
@@ -356,7 +356,7 @@ a:hover {
 	}
 	
 	.contact-info ul {		
-		width: 52%;	
+		width: 65%;	
 	}
 
 	.contact-info ul li {		
@@ -366,6 +366,10 @@ a:hover {
 	.column {		
 		width: 94%;
 		margin: 3%;
+	}
+	
+	.blog-content {
+		height: auto;
 	}
 	
 	.single-content {
