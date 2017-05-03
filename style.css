@@ -125,7 +125,7 @@ a:hover {
 /* Contact info styles */
 .contact-info ul {
 	float: right;
-	width: 40%;	
+	width: 60%;	
 }
 
 .contact-info ul li {
@@ -168,11 +168,12 @@ a:hover {
 
 .blog-content a:link,
 .blog-content a:visited {
-	color: #2b2527;
+	color: #2B2525;		
 	font-weight: 700;
 }
 .blog-content a:hover {
-	color: #625454;
+	color: #625454;	
+	font-weight: 700;
 	text-decoration: underline;
 }
 .blog-content img {
@@ -185,23 +186,55 @@ a:hover {
 	width: 97%;
 	margin: 1.5%;
 }
+
 .single-content h3 {
 	font-size: 32px;
 	padding: .25% 1.5% 0 1.5%;
 }
+
 .single-content a:link,
 .single-content a:visited {
-	color: #2b2525;	
+	color: #625454;	
 	font-weight: 700;
 }
+
 .single-content a:hover {
-	color: #625454;
+	color: #2B2525;	
+	font-weight: 700;
 	text-decoration: underline;
 }
+
 .single-content img {
 	float: right;
 	border: 2px solid #2B2525;
 	margin: 1%;
+}
+
+/* Archive page styles */
+.archive-header {
+	display: block;
+	clear: both;
+	width: 97%;
+	margin: 1.5% 1.5% 0 1.5%;
+}
+
+.pagination {
+	display: block;
+	clear: both;
+	width: 97%;
+	margin: 1.5%;
+}
+
+.pagination a:link,
+.pagination a:visited {
+	color: #625454;	
+	font-weight: 700;	
+}
+
+.pagination a:hover {
+	color: #2B2525;	
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 /* Site Footer Styles */
@@ -256,7 +289,8 @@ a:hover {
 	}
 	
 	.contact-info ul {		
-		width: 65%;	
+		width: 92%;
+		margin-top: 3%;
 	}
 
 	.contact-info ul li {		
@@ -274,7 +308,8 @@ a:hover {
 	}
 	
 	.single-content h3 {
-		font-size: 1.25em;		
+		margin: 1.5%;
+		font-size: 20px;		
 	}
 	
 	.single-content img {
@@ -317,11 +352,11 @@ a:hover {
 	}
 	
 	.contact-info {
-		margin-top: -6%;
+		margin-top: -9%;
 	}
 	
 	.contact-info ul {		
-		width: 42%;	
+		width: 52%;	
 	}
 
 	.contact-info ul li {		
